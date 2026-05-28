@@ -46,9 +46,16 @@ export default function App() {
                   {job.org}
                   {job.role && <span className="role"> · {job.role}</span>}
                 </h3>
-                <span className="date">{job.date}</span>
               </div>
-              <p>{job.summary}</p>
+              {job.bullets ? (
+                <ul>
+                  {job.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p>{job.summary}</p>
+              )}
             </div>
           ))}
         </Section>

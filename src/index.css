@@ -130,14 +130,6 @@ p.lead {
   color: var(--muted);
   margin-top: 4px;
 }
-.item ul {
-  margin-top: 8px;
-  padding-left: 18px;
-  color: var(--muted);
-}
-.item li {
-  margin-top: 2px;
-}
 
 /* Projects grid */
 .grid {

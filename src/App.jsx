@@ -14,7 +14,11 @@ export default function App() {
     <div className="wrap">
       <header>
         <p className="note">*{profile.note}</p>
-        <h1>{profile.name}</h1>
+        <h1>
+          {profile.name.split(" ").map((part, i) => (
+            <span key={`${part}-${i}`}>{part}</span>
+          ))}
+        </h1>
         <nav className="links">
           {profile.links.map((link) => {
             const isExternal = link.href.startsWith("http");

@@ -7,7 +7,7 @@ export const profile = {
   about:
     "I'm an Electrical Engineering & Computer Science student at UC Berkeley (B.E., May 2027). I build full-stack products end to end — React front-ends, Node/Express & Supabase backends, and ML/RL pipelines — with a focus on clean, fast, and reliable software.",
   links: [
-    { label: "Email", href: "mailto:akarik3873@berkeley.edu" },
+    { label: "Email", href: "mailto:akarik3873@gmail.com" },
     { label: "GitHub", href: "https://github.com/akarik3873" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/abrahamkarikkineth" },
   ],

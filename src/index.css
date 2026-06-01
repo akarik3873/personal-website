@@ -105,6 +105,18 @@ p.lead {
   color: var(--text);
 }
 
+.bullets {
+  list-style: disc;
+  padding-left: 20px;
+  color: var(--text);
+}
+.bullets li {
+  margin-top: 8px;
+}
+.bullets li:first-child {
+  margin-top: 0;
+}
+
 /* Item rows */
 .item {
   margin-bottom: 28px;

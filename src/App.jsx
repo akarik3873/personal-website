@@ -34,8 +34,12 @@ export default function App() {
       </header>
 
       <main>
-        <Section id="about" title="About">
-          <p className="lead">{profile.about}</p>
+        <Section id="about" title="tl;dr">
+          <ul className="bullets">
+            {profile.about.map((line) => (
+              <li key={line}>{line}</li>
+            ))}
+          </ul>
         </Section>
 
         <Section id="experience" title="Experience">
@@ -80,7 +84,7 @@ export default function App() {
       </main>
 
       <footer>
-        © {new Date().getFullYear()} {profile.fullName} · {profile.location}
+        © {new Date().getFullYear()} {profile.name} · {profile.location}
       </footer>
     </div>
   );

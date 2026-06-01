@@ -1,10 +1,12 @@
 export const profile = {
-  name: "Abraham Karikkineth",
-  fullName: "Abraham Chandapillai Karikkineth",
+  name: "Abraham Chandapillai Karikkineth",
   location: "Berkeley, CA",
   note: "this entire website was coded and deployed from my phone — I didn't open my laptop once",
-  about:
-    "EECS at UC Berkeley (B.E., May 2027). I build full-stack products end to end — React, Node/Express, Supabase, and ML/RL pipelines.",
+  about: [
+    "Electrical Engineering and Computer Science at Berkeley",
+    "I like Fullstack (mobile + web)",
+    "I like startups",
+  ],
   links: [
     { label: "Email", href: "mailto:akarik3873@gmail.com" },
     { label: "GitHub", href: "https://github.com/akarik3873" },

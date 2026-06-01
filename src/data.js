@@ -55,19 +55,19 @@ export const experience = [
     org: "Institute of Marine & Environmental Technology",
     role: "Research Intern",
     summary:
-      "Summer research intern at IMET in Baltimore, contributing to ongoing marine and environmental science projects.",
+      "Used fluorometers, spectrometers, and other instruments for fluorescence analysis. Assessed microbial inactivation and ran gel electrophoresis for DNA sequencing.",
   },
   {
     org: "Danko Arlington",
-    role: "Data Engineering Intern",
+    role: "Data Operations Intern",
     summary:
-      "Built data pipelines and reporting tooling for a precision-casting manufacturer, supporting production and quality data workflows.",
+      "Managed 100+ inventory pieces in a custom database system. Performed photogrammetry for defense product quality control.",
   },
   {
     org: "Johns Hopkins Sidney Kimmel Cancer Research Center",
     role: "Research Intern",
     summary:
-      "Research intern at the Sidney Kimmel Comprehensive Cancer Center, supporting active oncology research and lab work.",
+      "Restructured lab workflow to improve efficiency, saving $1,000+. Performed MiniPrep, MaxiPrep, IHC staining, and genotyping.",
   },
 ];
 

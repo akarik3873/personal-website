@@ -13,6 +13,7 @@ export default function App() {
   return (
     <div className="wrap">
       <header>
+        <p className="note">*{profile.note}</p>
         <h1>{profile.name}</h1>
         <nav className="links">
           {profile.links.map((link) => {

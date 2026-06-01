@@ -2,6 +2,7 @@ export const profile = {
   name: "Abraham Karikkineth",
   fullName: "Abraham Chandapillai Karikkineth",
   location: "Berkeley, CA",
+  note: "this entire website was coded and deployed from my phone — I didn't open my laptop once",
   about:
     "I'm an Electrical Engineering & Computer Science student at UC Berkeley (B.E., May 2027). I build full-stack products end to end — React front-ends, Node/Express & Supabase backends, and ML/RL pipelines — with a focus on clean, fast, and reliable software.",
   links: [

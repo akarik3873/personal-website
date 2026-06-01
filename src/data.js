@@ -4,7 +4,7 @@ export const profile = {
   note: "this entire website was coded and deployed from my phone — I didn't open my laptop once",
   about: [
     "Electrical Engineering and Computer Science at Berkeley",
-    "I like Fullstack (mobile + web)",
+    "I like fullstack (mobile + web)",
     "I like startups",
   ],
   links: [

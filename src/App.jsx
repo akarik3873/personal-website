@@ -34,7 +34,7 @@ export default function App() {
       </header>
 
       <main>
-        <Section id="about" title="tl;dr">
+        <Section id="about" title="tldr">
           <ul className="bullets">
             {profile.about.map((line) => (
               <li key={line}>{line}</li>

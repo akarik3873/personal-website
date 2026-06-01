@@ -1,8 +1,6 @@
 export const profile = {
   name: "Abraham Karikkineth",
   fullName: "Abraham Chandapillai Karikkineth",
-  tagline:
-    "EECS @ UC Berkeley · Full-stack engineer & founder building analytics, AI, and developer tools.",
   location: "Berkeley, CA",
   about:
     "I'm an Electrical Engineering & Computer Science student at UC Berkeley (B.E., May 2027). I build full-stack products end to end — React front-ends, Node/Express & Supabase backends, and ML/RL pipelines — with a focus on clean, fast, and reliable software.",

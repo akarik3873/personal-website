@@ -14,7 +14,6 @@ export default function App() {
     <div className="wrap">
       <header>
         <h1>{profile.name}</h1>
-        <p className="tagline">{profile.tagline}</p>
         <nav className="links">
           {profile.links.map((link) => {
             const isExternal = link.href.startsWith("http");

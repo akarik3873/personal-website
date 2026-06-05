@@ -118,7 +118,7 @@ export const skills = [
   {
     group: "Languages & Databases",
     items: [
-      "JS",
+      "JavaScript",
       "TypeScript",
       "Python",
       "Swift",

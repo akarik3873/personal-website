@@ -11,6 +11,7 @@ export const profile = {
     { label: "Email", href: "mailto:akarik3873@gmail.com" },
     { label: "GitHub", href: "https://github.com/akarik3873" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/abrahamkarikkineth" },
+    { label: "X", href: "https://x.com/akarik3873" },
   ],
 };
 

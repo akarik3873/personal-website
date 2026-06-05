@@ -80,7 +80,7 @@ export const projects = [
   },
   {
     name: "Woosh Web App",
-    tech: "React, JavaScript, Node, Express, Supabase",
+    tech: "React, JS, Node, Express, Supabase",
     summary:
       "Navigation app with AI chat, RBA auth, and REST + WebSocket messaging under 100ms; modular UI cut duplication 45%.",
   },
@@ -118,7 +118,7 @@ export const skills = [
   {
     group: "Languages & Databases",
     items: [
-      "JavaScript",
+      "JS",
       "TypeScript",
       "Python",
       "Swift",

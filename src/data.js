@@ -85,7 +85,7 @@ export const projects = [
   {
     name: "Catan Board Randomization",
     summary:
-      "Python Catan board generator with map-based search and adjacency-object representation.",
+      "Catan board generator with map-based search and adjacency-object representation — Python.",
   },
   {
     name: "Streamind",

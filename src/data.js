@@ -19,55 +19,55 @@ export const experience = [
     org: "Stealth Startup",
     role: "Founder",
     summary:
-      "Full-stack analytics platform (React, Express, Supabase) processing 10k+ data points/day. Zod-typed contracts, rate-limited APIs, RL recommendations. Caching + React Query cut API calls 40%.",
+      "Analytics platform handling 10k+ data points/day with typed contracts, rate-limiting, RL recommendations, and caching that cut API calls 40%.",
   },
   {
     org: "Movicorn",
     role: "SWE Intern",
     summary:
-      "Secure admin dashboard (React, Node, Postgres) with RBAC across 10+ endpoints. UI redesign cut task time 25% and input errors 35%.",
+      "Secure admin dashboard with RBAC across 10+ endpoints; UI redesign cut task time 25% and errors 35%.",
   },
   {
     org: "Rooh",
     role: "SWE Intern",
     summary:
-      "Gamified dashboard (React) with streaks, XP, and levels. Supabase + Express analytics on 10+ metrics; tuned Firebase APIs for lower runtime and cost.",
+      "Gamified dashboard with streaks, XP, and levels; analytics across 10+ metrics; tuned Firebase APIs.",
   },
   {
     org: "Pioneers of Engineering",
     role: "SWE",
     summary:
-      "UI fixes, testing, and refactors on a React IDE. Mentored juniors on reviews and architecture — +30% team velocity.",
+      "UI fixes and refactors on a custom IDE; mentored juniors for +30% team velocity.",
   },
   {
     org: "OrcanaAI",
     role: "SWE Intern",
     summary:
-      "Fixed WebSocket/routing for +20% URL reliability. Automated SQL schema migrations (~80% faster deploys). Built an auth encryption pipeline (Python, Postgres, bcrypt).",
+      "Fixed WebSocket/routing for +20% reliability; automated schema migrations 80% faster; built an auth encryption pipeline.",
   },
   {
     org: "SolarSURFER Project",
     role: "PM",
     summary:
-      "Coordinated JHU, UMD, and Olin teams on subsystem integration for a student-built satellite. Designed a 5×9.7×9.7 cm hyperspectral camera for LEO structural, thermal, and optical constraints.",
+      "Led JHU/UMD/Olin teams on a student-built satellite; designed a 5×9.7×9.7 cm hyperspectral camera for LEO.",
   },
   {
     org: "Institute of Marine & Environmental Technology",
     role: "Research Intern",
     summary:
-      "Used fluorometers, spectrometers, and other instruments for fluorescence analysis. Assessed microbial inactivation and ran gel electrophoresis for DNA sequencing.",
+      "Fluorescence analysis with fluorometers and spectrometers; microbial inactivation and gel electrophoresis for DNA sequencing.",
   },
   {
     org: "Danko Arlington",
     role: "Data Operations Intern",
     summary:
-      "Managed 100+ inventory pieces in a custom database system. Performed photogrammetry for defense product quality control.",
+      "Managed 100+ inventory items in a custom database; photogrammetry for defense QC.",
   },
   {
     org: "Johns Hopkins Sidney Kimmel Cancer Research Center",
     role: "Research Intern",
     summary:
-      "Restructured lab workflow to improve efficiency, saving $1,000+. Performed MiniPrep, MaxiPrep, IHC staining, and genotyping.",
+      "Restructured lab workflow, saving $1,000+; ran MiniPrep, MaxiPrep, IHC staining, and genotyping.",
   },
 ];
 
@@ -76,42 +76,41 @@ export const projects = [
     name: "Streamind",
     tech: "React Native, React, Swift",
     summary:
-      "Heart rate & breathing measured locally from the camera with MediaPipe, rPPG, and FFTs. RBAC sharing and Supabase storage.",
+      "Camera-based heart rate & breathing using MediaPipe, rPPG, and FFTs; RBAC sharing.",
   },
   {
     name: "Woosh Web App",
     tech: "React, JavaScript, Node, Express, Supabase",
     summary:
-      "Navigation web app with AI chat, navbar, and stored user features. Password-encrypted auth with RBA and cybersecurity hardening; REST + WebSocket messaging under 100ms; modular UI cut front-end duplication 45%.",
+      "Navigation app with AI chat, RBA auth, and REST + WebSocket messaging under 100ms; modular UI cut duplication 45%.",
   },
   {
     name: "Hand-Signal Robot",
     tech: "Python, Apple Vision Pro",
-    summary: "Robot controlled by hand-signal classification CV.",
+    summary: "Robot controlled by hand-signal CV.",
   },
   {
     name: "Learning Uncertainty RL",
     tech: "Python",
     summary:
-      "RL model mapping learning uncertainty from pupil dilation, building on \"Pupil size encodes uncertainty during exploration.\"",
+      "RL model mapping learning uncertainty from pupil dilation, after \"Pupil size encodes uncertainty during exploration.\"",
   },
   {
     name: "RISC-V 32-bit CPU",
     tech: "Logisim",
-    summary:
-      "Built a 32-bit RISC-V CPU in Logisim, designing every component from the logic-gate level up.",
+    summary: "32-bit RISC-V CPU built from the logic-gate level up.",
   },
   {
     name: "Google NGram Viewer",
     tech: "Java",
     summary:
-      "Word-frequency trend visualizer backed by a custom TimeSeries on a red-black tree for O(log n) retrieval. Hyponym search engine over WordNet, optimized with Weighted Quick Union and PriorityQueue.",
+      "Word-frequency trend viz with a red-black tree TimeSeries; hyponym search over WordNet using Weighted Quick Union and PriorityQueue.",
   },
   {
     name: "Catan Board Randomization",
     tech: "Python",
     summary:
-      "Modular Settlers of Catan board generator using maps and an efficient search algorithm, with a non-graphical adjacency-object board representation.",
+      "Modular Catan board generator with map-based search and adjacency-object representation.",
   },
 ];
 

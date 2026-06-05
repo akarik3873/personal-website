@@ -74,43 +74,38 @@ export const experience = [
 export const projects = [
   {
     name: "Hand-Signal Robot",
-    tech: "Python, Apple Vision Pro",
-    summary: "Robot controlled by hand-signal CV.",
+    summary:
+      "Robot controlled by hand-signal CV — Python on an Apple Vision Pro.",
   },
   {
     name: "Catan Board Randomization",
-    tech: "Python",
     summary:
-      "Catan board generator with map-based search and adjacency-object representation.",
+      "Python Catan board generator with map-based search and adjacency-object representation.",
   },
   {
     name: "Streamind",
-    tech: "React Native, React, Swift",
     summary:
-      "Camera-based heart rate & breathing using MediaPipe, rPPG, and FFTs; RBAC sharing and Supabase storage.",
+      "Camera-based heart rate & breathing in React Native, React, and Swift using MediaPipe, rPPG, and FFTs; RBAC sharing and Supabase storage.",
   },
   {
     name: "RISC-V 32-bit CPU",
-    tech: "Logisim",
-    summary: "32-bit RISC-V CPU built from the logic-gate level up.",
+    summary:
+      "32-bit RISC-V CPU built in Logisim from the logic-gate level up.",
   },
   {
     name: "Woosh Web App",
-    tech: "React, JS, Node, Express, Supabase",
     summary:
-      "Navigation app with AI chat, RBA auth, and REST + WebSocket messaging under 100ms; modular UI cut duplication 45%.",
+      "Navigation app (React, JS, Node, Express, Supabase) with AI chat, RBA auth, and REST + WebSocket messaging under 100ms; modular UI cut duplication 45%.",
   },
   {
     name: "Learning Uncertainty RL",
-    tech: "Python",
     summary:
-      "RL model mapping learning uncertainty from pupil dilation, after \"Pupil size encodes uncertainty during exploration.\"",
+      "Python RL model mapping learning uncertainty from pupil dilation, after \"Pupil size encodes uncertainty during exploration.\"",
   },
   {
     name: "Google NGram Viewer",
-    tech: "Java",
     summary:
-      "Word-frequency trend viz with a red-black tree TimeSeries; hyponym search over WordNet using Weighted Quick Union and PriorityQueue.",
+      "Java word-frequency trend viz with a red-black tree TimeSeries; hyponym search over WordNet using Weighted Quick Union and PriorityQueue.",
   },
 ];
 

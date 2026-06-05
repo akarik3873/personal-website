@@ -19,7 +19,7 @@ export const experience = [
     org: "Stealth Startup",
     role: "Founder",
     summary:
-      "Analytics platform handling 10k+ data points/day with typed contracts, rate-limiting, RL recommendations, and caching that cut API calls 40%.",
+      "Analytics platform handling 10k+ data points/day with Zod-typed contracts, rate-limiting, RL recommendations, and React Query caching that cut API calls 40%.",
   },
   {
     org: "Movicorn",
@@ -43,7 +43,7 @@ export const experience = [
     org: "OrcanaAI",
     role: "SWE Intern",
     summary:
-      "Fixed WebSocket/routing for +20% reliability; automated schema migrations 80% faster; built an auth encryption pipeline.",
+      "Fixed WebSocket/routing for +20% reliability; automated schema migrations 80% faster; built a bcrypt auth encryption pipeline.",
   },
   {
     org: "SolarSURFER Project",
@@ -76,7 +76,7 @@ export const projects = [
     name: "Streamind",
     tech: "React Native, React, Swift",
     summary:
-      "Camera-based heart rate & breathing using MediaPipe, rPPG, and FFTs; RBAC sharing.",
+      "Camera-based heart rate & breathing using MediaPipe, rPPG, and FFTs; RBAC sharing and Supabase storage.",
   },
   {
     name: "Woosh Web App",

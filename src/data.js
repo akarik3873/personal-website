@@ -59,7 +59,7 @@ export const experience = [
   },
   {
     org: "Danko Arlington",
-    role: "Data Operations Intern",
+    role: "Data Ops Intern",
     summary:
       "Managed 100+ inventory items in a custom database; photogrammetry for defense QC.",
   },

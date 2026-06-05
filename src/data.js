@@ -3,7 +3,7 @@ export const profile = {
   location: "Berkeley, CA",
   note: "this entire website was coded and deployed from my phone — I didn't open my laptop once",
   about: [
-    "EECS at Berkeley",
+    "junior EECS at Berkeley",
     "I like fullstack (mobile + web)",
     "I like startups",
   ],

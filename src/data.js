@@ -73,10 +73,26 @@ export const experience = [
 
 export const projects = [
   {
+    name: "Hand-Signal Robot",
+    tech: "Python, AVP",
+    summary: "Robot controlled by hand-signal CV.",
+  },
+  {
+    name: "Catan Board Randomization",
+    tech: "Python",
+    summary:
+      "Modular Catan board generator with map-based search and adjacency-object representation.",
+  },
+  {
     name: "Streamind",
     tech: "React Native, React, Swift",
     summary:
       "Camera-based heart rate & breathing using MediaPipe, rPPG, and FFTs; RBAC sharing and Supabase storage.",
+  },
+  {
+    name: "RISC-V 32-bit CPU",
+    tech: "Logisim",
+    summary: "32-bit RISC-V CPU built from the logic-gate level up.",
   },
   {
     name: "Woosh Web App",
@@ -85,32 +101,16 @@ export const projects = [
       "Navigation app with AI chat, RBA auth, and REST + WebSocket messaging under 100ms; modular UI cut duplication 45%.",
   },
   {
-    name: "Hand-Signal Robot",
-    tech: "Python, AVP",
-    summary: "Robot controlled by hand-signal CV.",
-  },
-  {
     name: "Learning Uncertainty RL",
     tech: "Python",
     summary:
       "RL model mapping learning uncertainty from pupil dilation, after \"Pupil size encodes uncertainty during exploration.\"",
   },
   {
-    name: "RISC-V 32-bit CPU",
-    tech: "Logisim",
-    summary: "32-bit RISC-V CPU built from the logic-gate level up.",
-  },
-  {
     name: "Google NGram Viewer",
     tech: "Java",
     summary:
       "Word-frequency trend viz with a red-black tree TimeSeries; hyponym search over WordNet using Weighted Quick Union and PriorityQueue.",
-  },
-  {
-    name: "Catan Board Randomization",
-    tech: "Python",
-    summary:
-      "Modular Catan board generator with map-based search and adjacency-object representation.",
   },
 ];
 

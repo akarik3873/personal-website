@@ -60,7 +60,17 @@ export default function App() {
           ))}
         </Section>
 
-        <Section id="projects" title="Projects">
+        <Section
+          id="projects"
+          title={
+            <>
+              Projects{" "}
+              <span className="subnote">
+                (approx ordered by how much I liked them)
+              </span>
+            </>
+          }
+        >
           {projects.map((project) => (
             <div className="item" key={project.name}>
               <div className="item-head">

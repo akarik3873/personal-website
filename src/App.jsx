@@ -1,4 +1,5 @@
 import { profile, experience, projects, skills } from "./data.js";
+import { ICONS } from "./icons.jsx";
 
 function Section({ id, title, children }) {
   return (
@@ -26,11 +27,13 @@ export default function App() {
               <a
                 key={link.label}
                 href={link.href}
+                aria-label={link.label}
+                title={link.label}
                 {...(isExternal
                   ? { target: "_blank", rel: "noopener noreferrer" }
                   : {})}
               >
-                {link.label}
+                {ICONS[link.icon]}
               </a>
             );
           })}

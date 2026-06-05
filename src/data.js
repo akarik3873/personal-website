@@ -8,10 +8,14 @@ export const profile = {
     "I like startups",
   ],
   links: [
-    { label: "Email", href: "mailto:akarik3873@gmail.com" },
-    { label: "GitHub", href: "https://github.com/akarik3873" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/abrahamkarikkineth" },
-    { label: "X", href: "https://x.com/akarik3873" },
+    { label: "Email", icon: "email", href: "mailto:akarik3873@gmail.com" },
+    { label: "GitHub", icon: "github", href: "https://github.com/akarik3873" },
+    {
+      label: "LinkedIn",
+      icon: "linkedin",
+      href: "https://www.linkedin.com/in/abrahamkarikkineth",
+    },
+    { label: "X", icon: "x", href: "https://x.com/akarik3873" },
   ],
 };
 

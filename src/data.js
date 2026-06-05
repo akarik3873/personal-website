@@ -86,7 +86,7 @@ export const projects = [
   },
   {
     name: "Hand-Signal Robot",
-    tech: "Python, Apple Vision Pro",
+    tech: "Python, AVP",
     summary: "Robot controlled by hand-signal CV.",
   },
   {

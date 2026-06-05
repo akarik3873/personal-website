@@ -61,14 +61,19 @@ export default function App() {
         </Section>
 
         <Section id="projects" title="Projects">
-          <div className="grid">
-            {projects.map((project) => (
-              <div className="card" key={project.name}>
-                <h3>{project.name}</h3>
-                <p>{project.summary}</p>
+          {projects.map((project) => (
+            <div className="item" key={project.name}>
+              <div className="item-head">
+                <h3>
+                  {project.name}
+                  {project.tech && (
+                    <span className="role"> · {project.tech}</span>
+                  )}
+                </h3>
               </div>
-            ))}
-          </div>
+              <p>{project.summary}</p>
+            </div>
+          ))}
         </Section>
 
         <Section id="skills" title="Skills">

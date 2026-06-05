@@ -74,22 +74,44 @@ export const experience = [
 export const projects = [
   {
     name: "Streamind",
+    tech: "React Native, React, Swift",
     summary:
-      "Heart rate & breathing measured locally from the camera with MediaPipe, rPPG, and FFTs. React Native + Swift, RBAC sharing, Supabase storage.",
+      "Heart rate & breathing measured locally from the camera with MediaPipe, rPPG, and FFTs. RBAC sharing and Supabase storage.",
   },
   {
-    name: "Woosh Navigation",
+    name: "Woosh Web App",
+    tech: "React, JavaScript, Node, Express, Supabase",
     summary:
-      "Full-stack platform (React, Express, Supabase) with AI chat and REST + WebSocket messaging under 100ms. Modular UI cut front-end duplication 45%.",
+      "Navigation web app with AI chat, navbar, and stored user features. Password-encrypted auth with RBA and cybersecurity hardening; REST + WebSocket messaging under 100ms; modular UI cut front-end duplication 45%.",
   },
   {
     name: "Hand-Signal Robot",
-    summary:
-      "Robot controlled by hand-signal CV — Python + Apple Vision Pro.",
+    tech: "Python, Apple Vision Pro",
+    summary: "Robot controlled by hand-signal classification CV.",
   },
   {
     name: "Learning Uncertainty RL",
-    summary: "RL model mapping learning uncertainty from eye dilation.",
+    tech: "Python",
+    summary:
+      "RL model mapping learning uncertainty from pupil dilation, building on \"Pupil size encodes uncertainty during exploration.\"",
+  },
+  {
+    name: "RISC-V 32-bit CPU",
+    tech: "Logisim",
+    summary:
+      "Built a 32-bit RISC-V CPU in Logisim, designing every component from the logic-gate level up.",
+  },
+  {
+    name: "Google NGram Viewer",
+    tech: "Java",
+    summary:
+      "Word-frequency trend visualizer backed by a custom TimeSeries on a red-black tree for O(log n) retrieval. Hyponym search engine over WordNet, optimized with Weighted Quick Union and PriorityQueue.",
+  },
+  {
+    name: "Catan Board Randomization",
+    tech: "Python",
+    summary:
+      "Modular Settlers of Catan board generator using maps and an efficient search algorithm, with a non-graphical adjacency-object board representation.",
   },
 ];
 

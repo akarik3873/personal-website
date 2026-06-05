@@ -150,32 +150,6 @@ p.lead {
   margin-top: 4px;
 }
 
-/* Projects grid */
-.grid {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: 1fr 1fr;
-}
-.card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px;
-  transition: border-color 0.15s ease, transform 0.15s ease;
-}
-.card:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
-}
-.card h3 {
-  font-size: 1rem;
-  margin-bottom: 6px;
-}
-.card p {
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
 /* Skills */
 .skills {
   display: flex;
@@ -210,9 +184,6 @@ footer {
 }
 
 @media (max-width: 560px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
   header {
     padding: 56px 0 40px;
   }

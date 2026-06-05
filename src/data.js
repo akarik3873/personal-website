@@ -74,7 +74,7 @@ export const experience = [
 export const projects = [
   {
     name: "Hand-Signal Robot",
-    tech: "Python, AVP",
+    tech: "Python, Apple Vision Pro",
     summary: "Robot controlled by hand-signal CV.",
   },
   {

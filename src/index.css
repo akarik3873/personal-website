@@ -71,6 +71,7 @@ header h1 span:nth-child(2) {
   margin-top: 28px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
 }
 .links a {

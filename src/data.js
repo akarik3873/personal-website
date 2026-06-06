@@ -80,7 +80,7 @@ export const projects = [
   {
     name: "Hand-Signal Robot",
     summary:
-      "Robot controlled by hand-signal CV — Python on an Apple Vision Pro.",
+      "Robot controlled in Python from hand-signal CV running in Swift on an Apple Vision Pro.",
   },
   {
     name: "Catan Board Randomization",

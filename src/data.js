@@ -115,7 +115,7 @@ export const projects = [
   {
     name: "Smart Kids Enrichment Center",
     summary:
-      "Tutoring marketplace (React, Supabase, Zod) for parents, tutors, and admins; race-safe enrollment via transactional Postgres RPCs with row locks, RLS-secured RBAC, and a test-gated GitHub Actions deploy.",
+      "Tutoring marketplace (React, Supabase) with race-safe enrollment via transactional Postgres RPCs and RLS-secured role-based access.",
   },
 ];
 

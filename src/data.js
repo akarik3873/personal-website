@@ -85,7 +85,6 @@ export const projects = [
   {
     name: "Catan Board Randomization",
     href: "https://akarik3873.github.io/Catan-Fair-Board-Generator/",
-    linkLabel: "Generator",
     summary:
       "Catan board generator with map-based search and adjacency-object representation in Python.",
   },
@@ -117,7 +116,6 @@ export const projects = [
   {
     name: "Praxis Enrichment Center",
     href: "http://praxiscenteredu.com",
-    linkLabel: "praxis",
     summary:
       "Tutoring marketplace (React, Supabase, Zod) for parents, tutors, and admins; race-safe enrollment via transactional Postgres RPCs with row locks, RLS-secured RBAC, and a test-gated GitHub Actions deploy.",
   },

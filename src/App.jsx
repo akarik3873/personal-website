@@ -78,18 +78,17 @@ export default function App() {
             <div className="item" key={project.name}>
               <div className="item-head">
                 <h3>
-                  {project.name}
-                  {project.href && (
-                    <>
-                      {" - "}
-                      <a
-                        href={project.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {project.linkLabel}
-                      </a>
-                    </>
+                  {project.href ? (
+                    <a
+                      className="project-link"
+                      href={project.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.name}
+                    </a>
+                  ) : (
+                    project.name
                   )}
                 </h3>
               </div>

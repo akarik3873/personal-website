@@ -152,6 +152,9 @@ p.lead {
 .item-head h3 {
   font-size: 1.05rem;
 }
+.item-head h3 .project-link {
+  text-decoration: underline;
+}
 .item-head h3 .role {
   color: var(--muted);
   font-weight: 400;

@@ -79,6 +79,8 @@ export const experience = [
 export const projects = [
   {
     name: "Hand-Signal Robot",
+    image: "/hand-signal-robot.jpg",
+    imageAlt: "Hand-signal controlled robot at Cal Hacks 12.0",
     summary:
       "Robot controlled in Python from hand-signal CV running in Swift on an Apple Vision Pro.",
   },

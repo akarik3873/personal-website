@@ -159,6 +159,14 @@ p.lead {
   color: var(--muted);
   font-weight: 400;
 }
+.project-img {
+  display: block;
+  margin-top: 10px;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 .item p {
   color: var(--muted);
   margin-top: 4px;

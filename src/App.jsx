@@ -93,6 +93,14 @@ export default function App() {
                 </h3>
               </div>
               <p>{project.summary}</p>
+              {project.image && (
+                <img
+                  className="project-img"
+                  src={project.image}
+                  alt={project.imageAlt || project.name}
+                  loading="lazy"
+                />
+              )}
             </div>
           ))}
         </Section>

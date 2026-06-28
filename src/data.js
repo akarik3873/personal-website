@@ -84,6 +84,8 @@ export const projects = [
   },
   {
     name: "Catan Board Randomization",
+    href: "https://akarik3873.github.io/Catan-Fair-Board-Generator/",
+    linkLabel: "Generator",
     summary:
       "Catan board generator with map-based search and adjacency-object representation in Python.",
   },

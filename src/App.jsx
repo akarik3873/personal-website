@@ -77,7 +77,21 @@ export default function App() {
           {projects.map((project) => (
             <div className="item" key={project.name}>
               <div className="item-head">
-                <h3>{project.name}</h3>
+                <h3>
+                  {project.name}
+                  {project.href && (
+                    <>
+                      {" - "}
+                      <a
+                        href={project.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {project.linkLabel}
+                      </a>
+                    </>
+                  )}
+                </h3>
               </div>
               <p>{project.summary}</p>
             </div>

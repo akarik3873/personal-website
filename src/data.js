@@ -113,7 +113,9 @@ export const projects = [
       "Java word-frequency trend viz with a red-black tree TimeSeries; hyponym search over WordNet using Weighted Quick Union and PriorityQueue.",
   },
   {
-    name: "Praxis Enrichment Center - http://praxiscenteredu.com",
+    name: "Praxis Enrichment Center",
+    href: "http://praxiscenteredu.com",
+    linkLabel: "praxis",
     summary:
       "Tutoring marketplace (React, Supabase, Zod) for parents, tutors, and admins; race-safe enrollment via transactional Postgres RPCs with row locks, RLS-secured RBAC, and a test-gated GitHub Actions deploy.",
   },

@@ -27,6 +27,11 @@ export const experience = [
       "Analytics platform handling 10k+ data points/day with Zod-typed contracts, rate-limiting, RL recommendations, and React Query caching that cut API calls 40%.",
   },
   {
+    org: "Novaflow (YC S25)",
+    role: "Senior SWE",
+    summary: "Lead 4 teams of interns.",
+  },
+  {
     org: "Lumeria (YC S26)",
     role: "SWE Intern",
     summary:

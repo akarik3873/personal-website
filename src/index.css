@@ -172,6 +172,28 @@ p.lead {
   margin-top: 4px;
 }
 
+/* Nested projects under an experience item */
+.subitems {
+  margin-top: 12px;
+  padding-left: 16px;
+  border-left: 1px solid var(--border);
+}
+.subitem {
+  margin-bottom: 12px;
+}
+.subitem:last-child {
+  margin-bottom: 0;
+}
+.subitem h4 {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.subitem p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
 /* Skills */
 .skills {
   display: flex;

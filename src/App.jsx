@@ -59,6 +59,16 @@ export default function App() {
                 </h3>
               </div>
               <p>{job.summary}</p>
+              {job.projects && (
+                <div className="subitems">
+                  {job.projects.map((project) => (
+                    <div className="subitem" key={project.name}>
+                      <h4>{project.name}</h4>
+                      <p>{project.summary}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </Section>

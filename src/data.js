@@ -30,6 +30,28 @@ export const experience = [
     org: "Novaflow (YC S25)",
     role: "Senior SWE",
     summary: "Lead 4 teams of interns.",
+    projects: [
+      {
+        name: "Spatial Tissue Cartographer",
+        summary:
+          "Web app that reanalyzes Xenium/Visium/CODEX spatial transcriptomics data to answer PI-specific questions for high-impact publication, going beyond generic vendor analysis.",
+      },
+      {
+        name: "Radiomics Foundation Model",
+        summary:
+          "Correlates imaging/radiomics data (e.g. X-rays) with gene expression, centered on co-registration analysis.",
+      },
+      {
+        name: "CRISPR / Perturb Agent",
+        summary:
+          "Uses outputs from established CRISPR experiments to predict optimal modifications and gRNA constructs.",
+      },
+      {
+        name: "AI-for-Bio Benchmarking",
+        summary:
+          "Benchmark for evaluating AI model performance on computational biology tasks, recreating and improving on prior work like BixBench and Edison Scientific.",
+      },
+    ],
   },
   {
     org: "Lumeria (YC S26)",

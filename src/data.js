@@ -97,6 +97,12 @@ export const projects = [
       "Robot controlled in Python from hand-signal CV running in Swift on an Apple Vision Pro.",
   },
   {
+    name: "Pneuma",
+    href: "https://pneuma-frontend-490936322352.us-central1.run.app",
+    summary:
+      "Synthetic focus groups (React, FastAPI, Supabase pgvector, GCP Cloud Run): builds a quota-based panel of AI persona agents matching a target audience, each reacting independently with its own memory to copy, ad images, or slide decks; browser agents drive real Chromium on live sites for friction heatmaps, and an analyst agent answers questions across the panel with what-if re-runs.",
+  },
+  {
     name: "Catan Board Randomization",
     href: "https://akarik3873.github.io/Catan-Fair-Board-Generator/",
     summary:

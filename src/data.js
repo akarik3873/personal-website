@@ -100,7 +100,7 @@ export const projects = [
     name: "Pneuma",
     href: "https://pneuma-frontend-490936322352.us-central1.run.app",
     summary:
-      "AI focus groups (React, FastAPI, Supabase): persona agents matching a target audience react to ads, decks, and live websites, mimicking real user usage by browsing sites in real Chromium.",
+      "AI focus groups (React, FastAPI, Supabase pgvector, GCP Cloud Run): persona agents matching a target audience react to ads, decks, and live websites, mimicking real user usage by browsing sites in real Chromium.",
   },
   {
     name: "Catan Board Randomization",

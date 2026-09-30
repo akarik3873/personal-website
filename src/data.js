@@ -27,12 +27,6 @@ export const experience = [
       "Analytics platform handling 10k+ data points/day with Zod-typed contracts, rate-limiting, RL recommendations, and React Query caching that cut API calls 40%.",
   },
   {
-    org: "Lumeria (YC S26)",
-    role: "SWE Intern",
-    summary:
-      "Architecture design with the founding team: service boundaries, data models, and API contracts.",
-  },
-  {
     org: "Movicorn",
     role: "SWE Intern",
     summary:

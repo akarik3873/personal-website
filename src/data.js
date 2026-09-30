@@ -103,7 +103,7 @@ export const projects = [
       "Catan board generator with map-based search and adjacency-object representation in Python.",
   },
   {
-    name: "Streamind",
+    name: "Streamind Web App",
     summary:
       "Camera-based heart rate & breathing in React Native, React, and Swift using MediaPipe, rPPG, and FFTs; RBAC sharing and Supabase storage.",
   },
@@ -113,7 +113,7 @@ export const projects = [
       "32-bit RISC-V CPU built in Logisim from the logic-gate level up.",
   },
   {
-    name: "Woosh Web App",
+    name: "Woosh Navigation Web App",
     summary:
       "Navigation app (React, JS, Node, Express, Supabase) with AI chat, RBA auth, and REST + WebSocket messaging under 100ms; modular UI cut duplication 45%.",
   },

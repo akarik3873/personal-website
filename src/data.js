@@ -20,12 +20,12 @@ export const profile = {
 };
 
 export const experience = [
-  {
-    org: "Stealth Startup",
-    role: "Founder",
-    summary:
-      "Analytics platform handling 10k+ data points/day with Zod-typed contracts, rate-limiting, RL recommendations, and React Query caching that cut API calls 40%.",
-  },
+  // {
+  //   org: "Stealth Startup",
+  //   role: "Founder",
+  //   summary:
+  //     "Analytics platform handling 10k+ data points/day with Zod-typed contracts, rate-limiting, RL recommendations, and React Query caching that cut API calls 40%.",
+  // },
   {
     org: "Movicorn",
     role: "SWE Intern",
